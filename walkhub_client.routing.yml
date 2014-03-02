@@ -1,0 +1,9 @@
+walkhub_client.settings_form:
+  path: '/admin/config/services/walkhub_client'
+  defaults:
+    _form: 'Drupal\Walkhub\Form\WalkhubSettingsForm'
+    #_form: '\Drupal\Walkhub\WalkhubClient\Form\WalkhubSettingsForm'
+    #_form: 'Drupal\system\Form\ImageToolkitForm'
+    _title: 'Walkhub client'
+  requirements:
+    _permission: 'administer walkhub client'

@@ -1,0 +1,5 @@
+name: 'WalkHub Client'
+description: 'WalkHub Client module'
+package: Walkthrough
+core: 8.x
+type: module
